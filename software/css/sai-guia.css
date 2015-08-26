@@ -1,0 +1,94 @@
+/* 
+    Created on : 25/08/2015, 20:25:19
+    Author     : maik
+*/
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+        outline: 0;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+    
+}
+
+header{
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    background: #264559;
+}
+header #logos{
+    margin-left: 5%;
+}
+header #logos .logo{
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 3%;
+    float: left;
+}
+header ul#menuPrincipal{
+    list-style: none;
+    background: none;
+    margin-top: 0;
+    text-align: center;
+    float: left;
+    padding-right: 20px;
+    min-width: 50%;
+}
+header ul#menuPrincipal li{
+    float: left;
+    margin-top: 0;
+    padding-left: 10%;
+    padding-top: 20px
+}
+header ul#menuPrincipal li a, header ul#menuPrincipal li a:hover{
+    color: #ffffff;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+header ul#menuPrincipal .submenu{
+    background: #264559;
+    position: absolute;
+    min-width: 150px;
+    display: none;
+    z-index: 60;
+    opacity: 0.95;
+    margin-top: 0;
+    margin-left: -25px;
+    padding: 10px;
+    border-radius: 0 0 4px 4px;
+}
+header ul#menuPrincipal .submenu ul{
+    float: left;
+    list-style: none;
+    margin: 0 10px 20px 0px;
+}
+header ul#menuPrincipal .submenu ul li{
+    float: none;
+    text-align: left;
+    height: 10px;
+    padding-left: 20px;
+    padding-right: 0;
+    padding-bottom: 10px;
+    border-right: none;
+}
+header ul#menuPrincipal .submenu ul li a{
+    font-size: 1.2em;
+}
