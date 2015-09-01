@@ -9,15 +9,20 @@ body{
     background: #254559;
     border: none;
 }
+.sai-guia-lingua{
+    margin: 0 auto;
+}
+.sai-guia-lingua img{
+    padding: 10px;
+    max-height: 30px;
+    float: right;
+}
 .sai-guia-img-logo{
     float: left;
 }
 .sai-guia-img-logo img{
     padding: 10px;
     max-height: 50px;
-}
-.sai-guia-menu{
-    
 }
 .sai-guia-menu ul{
     margin-top: 20px;
