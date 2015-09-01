@@ -10,7 +10,8 @@ body{
     border: none;
 }
 .sai-guia-lingua{
-    margin: 0 auto; 
+    margin: 0 auto;
+    float: right;
 }
 .sai-guia-lingua img{
     padding: 10px;
