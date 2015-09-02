@@ -10,14 +10,12 @@ body{
     border: none;
 }
 .sai-guia-lingua{
-    margin: 0 auto;
-    min-height: 30px;
+    width: 100%;
+    text-align: center;
 }
 .sai-guia-lingua img{
-    padding: 10px;
-    min-height: 20px;
+    padding: 5px;
     max-height: 30px;
-    float: right;
     cursor: pointer;
 }
 .sai-guia-img-logo{
@@ -27,9 +25,12 @@ body{
     padding: 10px;
     max-height: 50px;
 }
+.sai-guia-menu{
+    margin-top: -5px;
+}
 .sai-guia-menu ul{
-    margin-top: 20px;
-    font-size: 14px;
+    margin-top: 10px;
+    font-size: 16px;
     background: #254559;
     opacity: 0.9;
 }
@@ -71,4 +72,20 @@ body{
 .sai-guia-conteudo-banner-principal{
     width: 100%;
     margin: -20px 0 0 0;
+}
+.sai-guia-menu-campus{
+    width: 100%;
+}
+.sai-guia-menu-campus div{
+    float: left;
+    padding: 2% 3.7% 2% 3.7%;
+    text-align: center;
+    width: 200px;
+}
+.sai-guia-menu-campus div img{
+    max-width: 130px;
+}
+.sai-guia-menu-campus div p{
+    padding-top: 10px;
+    font-size: 1.2em;
 }
