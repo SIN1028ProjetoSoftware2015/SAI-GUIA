@@ -11,11 +11,14 @@ body{
 }
 .sai-guia-lingua{
     margin: 0 auto;
-    float: right;
+    min-height: 30px;
 }
 .sai-guia-lingua img{
     padding: 10px;
+    min-height: 20px;
     max-height: 30px;
+    float: right;
+    cursor: pointer;
 }
 .sai-guia-img-logo{
     float: left;
