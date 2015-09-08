@@ -75,6 +75,7 @@ body{
 }
 .sai-guia-menu-campus{
     width: 100%;
+    display: table;
 }
 .sai-guia-menu-campus div{
     float: left;
@@ -88,4 +89,24 @@ body{
 .sai-guia-menu-campus div p{
     padding-top: 10px;
     font-size: 1.2em;
+}
+.sai-guia-mapas{
+    width: 100%;
+    height: 250px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.sai-guia-mapas-titulo{
+    color: #ffffff;
+    background: #254559;
+    height: 14%;
+    width: 30%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1.4em;
+}
+.sai-guia-mapas-frame{
+    width: 100%;
+    height: 86%;
+    border: none;
 }
