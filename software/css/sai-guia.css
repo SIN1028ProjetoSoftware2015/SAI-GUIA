@@ -100,7 +100,7 @@ body{
     color: #ffffff;
     background: #254559;
     height: 14%;
-    width: 30%;
+    width: 50%;
     text-align: center;
     margin: 0 auto;
     font-size: 1.4em;
@@ -109,4 +109,74 @@ body{
     width: 100%;
     height: 86%;
     border: none;
+}
+.sai-guia-menu-secundario{
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.sai-guia-menu-secundario ul{
+    list-style: none;
+    width: 100%;
+}
+.sai-guia-menu-secundario ul li{
+    margin: 5px 5% 5px 5%;
+    width: 40%;
+    float: left;
+    padding-left: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 4px;
+}
+.sai-guia-menu-secundario-cor-azul{
+    background: blue;
+    color: #ffffff;
+}
+.sai-guia-menu-secundario-cor-azul2{
+    background: #269abc;
+    color: #000000;
+}
+.sai-guia-menu-secundario-cor-vermelho{
+    background: red;
+    color: #000000;
+}
+.sai-guia-menu-secundario-cor-amarelo{
+    background: yellow;
+    color: #000000;
+}
+.sai-guia-menu-secundario-triangulo-azul{
+    border-color: blue transparent transparent transparent;
+    border-width: 10px;
+    border-style: solid;
+    width: 1%;
+    margin-left: -1%;
+    margin-top: 0.1%;
+    position: absolute;
+}
+.sai-guia-menu-secundario-triangulo-azul2{
+    border-color: #269abc transparent transparent transparent;
+    border-width: 10px;
+    border-style: solid;
+    width: 1%;
+    margin-left: -1%;
+    margin-top: 0.1%;
+    position: absolute;
+}
+.sai-guia-menu-secundario-triangulo-vermelho{
+    border-color: red transparent transparent transparent;
+    border-width: 10px;
+    border-style: solid;
+    width: 1%;
+    margin-left: -1%;
+    margin-top: 0.1%;
+    position: absolute;
+}
+.sai-guia-menu-secundario-triangulo-amarelo{
+    border-color: yellow transparent transparent transparent;
+    border-width: 10px;
+    border-style: solid;
+    width: 1%;
+    margin-left: -1%;
+    margin-top: 0.1%;
+    position: absolute;
 }
