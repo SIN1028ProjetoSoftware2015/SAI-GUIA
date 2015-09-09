@@ -92,14 +92,14 @@ body{
 }
 .sai-guia-mapas{
     width: 100%;
-    height: 250px;
+    height: 450px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 .sai-guia-mapas-titulo{
     color: #ffffff;
     background: #254559;
-    height: 14%;
+    height: 7%;
     width: 50%;
     text-align: center;
     margin: 0 auto;
@@ -107,7 +107,7 @@ body{
 }
 .sai-guia-mapas-frame{
     width: 100%;
-    height: 86%;
+    height: 93%;
     border: none;
 }
 .sai-guia-menu-secundario{
@@ -126,7 +126,6 @@ body{
     padding-left: 5%;
     padding-top: 1%;
     padding-bottom: 1%;
-    border-radius: 4px;
 }
 .sai-guia-menu-secundario-cor-azul{
     background: blue;
