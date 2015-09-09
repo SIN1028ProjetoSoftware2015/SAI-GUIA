@@ -16,4 +16,8 @@ Av. Roraima, 1000 - Camobi, Santa Maria - RS, 97105-900
 -29.711695, -53.716359
 
 
+R. Pres. Vargas, 1958 - Bom Retiro, Cachoeira do Sul- RS
+-30.042777, -52.899782
+
+
 
