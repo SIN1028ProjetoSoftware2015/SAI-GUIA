@@ -114,21 +114,23 @@ body{
     width: 50%;
     margin-top: 20px;
     margin-bottom: 20px;
+    float: left;
 }
 .sai-guia-menu-secundario ul{
     list-style: none;
     width: 100%;
 }
 .sai-guia-menu-secundario ul li{
-    margin: 5px 5% 5px 5%;
-    width: 40%;
+    margin: 10px 1% 10px 1%;
+    width: 48%;
     float: left;
     padding-left: 5%;
     padding-top: 1%;
-    padding-bottom: 1%;
+    padding-bottom: 2%;
+    font-size: 1.2em;
 }
 .sai-guia-menu-secundario-cor-azul{
-    background: blue;
+    background: #254559;
     color: #ffffff;
 }
 .sai-guia-menu-secundario-cor-azul2{
@@ -144,12 +146,12 @@ body{
     color: #000000;
 }
 .sai-guia-menu-secundario-triangulo-azul{
-    border-color: blue transparent transparent transparent;
+    border-color: #254559 transparent transparent transparent;
     border-width: 10px;
     border-style: solid;
     width: 1%;
     margin-left: -1%;
-    margin-top: 0.1%;
+    margin-top: 0.4%;
     position: absolute;
 }
 .sai-guia-menu-secundario-triangulo-azul2{
@@ -158,7 +160,7 @@ body{
     border-style: solid;
     width: 1%;
     margin-left: -1%;
-    margin-top: 0.1%;
+    margin-top: 0.4%;
     position: absolute;
 }
 .sai-guia-menu-secundario-triangulo-vermelho{
@@ -167,7 +169,7 @@ body{
     border-style: solid;
     width: 1%;
     margin-left: -1%;
-    margin-top: 0.1%;
+    margin-top: 0.4%;
     position: absolute;
 }
 .sai-guia-menu-secundario-triangulo-amarelo{
@@ -176,6 +178,21 @@ body{
     border-style: solid;
     width: 1%;
     margin-left: -1%;
-    margin-top: 0.1%;
+    margin-top: 0.4%;
     position: absolute;
+}
+.sai-guia-menu-secundario-titulo{
+    background: #254559;
+    color: #ffffff;
+    font-size: 1.2em;
+    width: 80%;
+    text-align: center;
+    margin: 2% auto;
+    padding: 1%;
+}
+.sai-guia-menu-secundario-noticia{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 2%;
+    font-size: 1.2em;
 }
