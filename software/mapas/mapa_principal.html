@@ -28,7 +28,7 @@ function initMap() {
     center: {lat: -29.711695, lng: -53.716359}, 
   });
 
-  var marker = new google.maps.Marker({
+  var marker_frederico = new google.maps.Marker({
     map: map,
     // Define the place with a location, and a query string.
     place: {
@@ -41,7 +41,7 @@ function initMap() {
       webUrl: 'https://developers.google.com/maps/'
     }
   });
-   var marker2 = new google.maps.Marker({
+   var marker_campos_sede = new google.maps.Marker({
     map: map,
     // Define the place with a location, and a query string.
     place: {
@@ -54,22 +54,43 @@ function initMap() {
       webUrl: 'https://developers.google.com/maps/'
     }
   });
+  
+  var marker_campus_palmeira= new google.maps.Marker({
+    map: map,
+    // Define the place with a location, and a query string.
+    place: {
+      location: {lat: -27.921435, lng: -53.318371},
+      query: 'UFSM Campus Palmeiras Da Missões' 
+    }, 
+    // Attributions help users find your site again.
+    attribution: {
+      source: 'Google Maps JavaScript API',
+      webUrl: 'https://developers.google.com/maps/'
+    }
+  });
 
   // Construct a new InfoWindow.
-  var infoWindow = new google.maps.InfoWindow({
-    content: 'UFSM Campos Frederico Westphalen colocar link'
+  var infoWindow_frederico = new google.maps.InfoWindow({
+    content: '<a href="http://w3.ufsm.br/cesnors/">UFSM Campus Frederico Westphalen</a>'
   });
-   var infoWindow2 = new google.maps.InfoWindow({
-    content: 'UFSM sede'
+   var infoWindow_capus_sede = new google.maps.InfoWindow({
+    content: '<a href="http://w3.ufsm.br/">UFSM Campus Santa Maria</a>'
   });
+    var infoWindow_capus_palmeira = new google.maps.InfoWindow({
+    content: '<a href="http://w3.ufsm.br/">UFSM Campus Palmeira</a>'
+  })
 
   // Opens the InfoWindow when marker is clicked.
-  marker.addListener('click', function() {
-    infoWindow.open(map, marker);
+  marker_frederico.addListener('click', function() {
+    infoWindow_frederico.open(map, marker_frederico);
   }
      );
-       marker2.addListener('click', function() {
-    infoWindow2.open(map, marker2);
+     marker_campos_sede.addListener('click', function() {
+        infoWindow_capus_sede.open(map, marker_campos_sede);
+  }
+     );
+        marker_campus_palmeira.addListener('click', function() {
+        infoWindow_capus_palmeira.open(map, marker_campus_palmeira);
   }
      );
 }
