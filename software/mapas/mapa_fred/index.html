@@ -13,13 +13,18 @@
 	<script type="text/javascript" src="jquery.min.js"></script>
 	
 	<style type="text/css">
+            body{
+                height: 100%;
+            }
 		#map_content {
-			height: 400px;
-			margin: 10px 0;
+                    
+			height: 300px;
+                        width: 100%;
+			//margin: 10px 0;
 		}
 	</style>
 	
-	<script type="text/javascript">
+	<script  type="text/javascript">
 		var map;
 		var directionsService = new google.maps.DirectionsService();
 		var info = new google.maps.InfoWindow({maxWidth: 500});
@@ -71,7 +76,7 @@
 			});
 		});
 	</script>
-<body onload="initialize()">
+        <body class="container"onload="initialize()">
     <form class="form-inline" action="" method="post" id="form_route">
             <label>Origem:<select type="text" id="route_from"  class="form-control">
                                 <option>UFSM Campus Santa Maria</option>
