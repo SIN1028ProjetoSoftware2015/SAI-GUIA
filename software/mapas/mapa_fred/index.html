@@ -22,7 +22,7 @@
 	<script type="text/javascript">
 		var map;
 		var directionsService = new google.maps.DirectionsService();
-		var info = new google.maps.InfoWindow({maxWidth: 200});
+		var info = new google.maps.InfoWindow({maxWidth: 500});
 		
 		var marker = new google.maps.Marker({
 			title: 'frederico',
@@ -72,15 +72,16 @@
 		});
 	</script>
 <body onload="initialize()">
-	<form action="" method="post" id="form_route">
-		<label>Origem:<select class="form-control">
-                                <option>1</option>
-                                 <option>2</option>
-                                <option>3</option>
-                                <option>4</option>
-                                <option>5</option>
+    <form class="form-inline" action="" method="post" id="form_route">
+            <label>Origem:<select type="text" id="route_from"  class="form-control">
+                                <option>UFSM Campus Santa Maria</option>
+                                 <option>UFSM Campus Palmeira das Missões</option>
+                                <option>UFSM Campus Cachoeira do Sul</option>
+                                <option>Aeroporto Internacional de Porto Alegre - Salgado Filho</option>
+                                <option>Aeroporto Municipal de Chapecó - Serafim Enzo Bertazzo</option>
+                                <option>Aeroporto de Passo Fundo</option>
 </select> </label>
-		<input type="submit" value="Traçar rota" />
+        <input  class="btn btn-success" type="submit" value="Traçar rota" />
 	</form>
 	
 	<div id="map_content"></div>
