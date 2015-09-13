@@ -10,14 +10,12 @@ body{
     border: none;
 }
 .sai-guia-lingua{
-    margin: 0 auto;
-    min-height: 30px;
+    width: 100%;
+    text-align: center;
 }
 .sai-guia-lingua img{
-    padding: 10px;
-    min-height: 20px;
+    padding: 5px;
     max-height: 30px;
-    float: right;
     cursor: pointer;
 }
 .sai-guia-img-logo{
@@ -27,9 +25,12 @@ body{
     padding: 10px;
     max-height: 50px;
 }
+.sai-guia-menu{
+    margin-top: -5px;
+}
 .sai-guia-menu ul{
-    margin-top: 20px;
-    font-size: 14px;
+    margin-top: 10px;
+    font-size: 16px;
     background: #254559;
     opacity: 0.9;
 }
@@ -71,4 +72,165 @@ body{
 .sai-guia-conteudo-banner-principal{
     width: 100%;
     margin: -20px 0 0 0;
+}
+.sai-guia-menu-campus{
+    width: 100%;
+    display: table;
+    margin-top: 5%;
+}
+.sai-guia-menu-campus div{
+    width: 18%;
+    margin-left: 1%;
+    margin-right: 1%;
+    float: left;
+    display: table;
+}
+.sai-guia-menu-campus div img{
+    width: 100%;
+}
+.sai-guia-menu-campus div p{
+    padding-top: 10px;
+    font-size: 1.2em;
+    text-align: center;
+}
+@media(max-width: 768px){
+    .sai-guia-menu-campus div{
+        width: 40%;
+        margin-left: 5%;
+        margin-right: 5%;
+        float: left;
+    }
+}
+.sai-guia-mapas{
+    width: 100%;
+    height: 450px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.sai-guia-mapas-titulo{
+    color: #ffffff;
+    background: #254559;
+    height: 7%;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1.4em;
+}
+.sai-guia-mapas-frame{
+    width: 100%;
+    height: 93%;
+    border: none;
+}
+.sai-guia-menu-secundario{
+    width: 50%;
+    float: left;
+}
+.sai-guia-menu-secundario ul{
+    list-style: none;
+    width: 100%;
+    padding-left: 0;
+}
+.sai-guia-menu-secundario ul li{
+    margin: 10px 1% 10px 1%;
+    width: 48%;
+    float: left;
+    padding-left: 5%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+@media (max-width: 768px) {
+    .sai-guia-menu-secundario{
+        width: 100%;
+    }
+}
+.sai-guia-menu-secundario-cor-azul{
+    background: #254559;
+    color: #ffffff;
+}
+.sai-guia-menu-secundario-cor-azul2{
+    background: #49c5bf;
+    color: #000000;
+}
+.sai-guia-menu-secundario-cor-vermelho{
+    background: #e64e21;
+    color: #000000;
+}
+.sai-guia-menu-secundario-cor-amarelo{
+    background: #ffcc29;
+    color: #000000;
+}
+.sai-guia-menu-secundario-triangulo-azul{
+    border-color: #254559 transparent transparent transparent;
+    border-width: 10px;
+    border-style: solid;
+    width: 1%;
+    margin-left: -1%;
+    margin-top: 0.4%;
+    position: absolute;
+}
+.sai-guia-menu-secundario-triangulo-azul2{
+    border-color: #49c5bf transparent transparent transparent;
+    border-width: 10px;
+    border-style: solid;
+    width: 1%;
+    margin-left: -1%;
+    margin-top: 0.4%;
+    position: absolute;
+}
+.sai-guia-menu-secundario-triangulo-vermelho{
+    border-color: #e64e21 transparent transparent transparent;
+    border-width: 10px;
+    border-style: solid;
+    width: 1%;
+    margin-left: -1%;
+    margin-top: 0.4%;
+    position: absolute;
+}
+.sai-guia-menu-secundario-triangulo-amarelo{
+    border-color: #ffcc29 transparent transparent transparent;
+    border-width: 10px;
+    border-style: solid;
+    width: 1%;
+    margin-left: -1%;
+    margin-top: 0.4%;
+    position: absolute;
+}
+.sai-guia-menu-secundario-titulo{
+    background: #254559;
+    color: #ffffff;
+    width: 100%;
+    text-align: center;
+    margin: 2% auto;
+    padding-left: 5%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    font-size: 1.2em;
+}
+.sai-guia-menu-secundario-noticia{
+    list-style: circle;
+    margin-left: 5%;
+    margin-right: 10%;
+    margin-bottom: 2%;
+    font-size: 1.2em;
+}
+.sai-guia-galeria{
+    width: 100%;
+    display: table;
+}
+.sai-guia-galeria img{
+    margin: 4% 0.5%;
+    width: 23.5%;
+}
+@media(max-width: 768px){
+    .sai-guia-galeria img{
+        margin: 5% 2%;
+        width: 45%;
+    }
+}
+.sai-guia-rodape{
+    background: #254559;
+    width: 100%;
+    height: 50px;
 }
