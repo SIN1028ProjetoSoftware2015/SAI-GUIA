@@ -2,51 +2,46 @@
 include_once 'ui/header.ui.php';
 ?>
 <img class="sai-guia-conteudo-banner-principal" src="imagens/foto_banner.png" alt=""/>
-<div class="sai-guia-menu-campus">
-    <div>
-        <img src="imagens/icon_predio.png" alt=""/>
-        <p>Santa Maria</p>
-    </div>
-    <div>
-        <img src="imagens/icon_predio.png" alt=""/>
-        <p>Frederico Westphalen</p>
-    </div>
-    <div>
-        <img src="imagens/icon_predio.png" alt=""/>
-        <p>Palmeira das Missões</p>
-    </div>
-    <div>
-        <img src="imagens/icon_predio.png" alt=""/>
-        <p>Cachoeira do Sul</p>
-    </div>
-    <div>
-        <img src="imagens/icon_predio.png" alt=""/>
-        <p>Silveira Martins</p>
-    </div>
+<div class="sai-guia-titulo">
+    Campus Frederico Westphalen
+</div>
+<div class="sai-guia-texto">
+    texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto 
+
+    texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto 
+
+    texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto 
+
+    texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto 
+
+    texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto 
+
+    texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto 
+
+    texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto 
+
+    texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto 
+
+    texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto 
 </div>
 <div class="sai-guia-mapas">
     <div class="sai-guia-mapas-titulo">Localize-se</div>
-    <iframe class="sai-guia-mapas-frame" src="mapas/mapa_principal.html"></iframe>
+    <iframe class="sai-guia-mapas-frame" src="mapas/mapa_fred/"></iframe>
 </div>
-<div class="sai-guia-menu-secundario">
-    <ul>
-        <li class="sai-guia-menu-secundario-cor-azul">Extágio no exterior<div class="sai-guia-menu-secundario-triangulo-azul"></div></li>
-        <li class="sai-guia-menu-secundario-cor-azul">Programas públicos<div class="sai-guia-menu-secundario-triangulo-azul"></div></li>
-        <li class="sai-guia-menu-secundario-cor-azul2">Convênios<div class="sai-guia-menu-secundario-triangulo-azul2"></div></li>
-        <li class="sai-guia-menu-secundario-cor-azul2">Financiadoras<div class="sai-guia-menu-secundario-triangulo-azul2"></div></li>
-        <li class="sai-guia-menu-secundario-cor-vermelho">Bolsas<div class="sai-guia-menu-secundario-triangulo-vermelho"></div></li>
-        <li class="sai-guia-menu-secundario-cor-vermelho">Documentação<div class="sai-guia-menu-secundario-triangulo-vermelho"></div></li>
-        <li class="sai-guia-menu-secundario-cor-amarelo">Oportunidades<div class="sai-guia-menu-secundario-triangulo-amarelo"></div></li>
-        <li class="sai-guia-menu-secundario-cor-amarelo">Dúvidas<div class="sai-guia-menu-secundario-triangulo-amarelo"></div></li>
-    </ul>
+<div class="sai-guia-titulo-2">
+    Dados do munícipio
 </div>
-<div class="sai-guia-menu-secundario">
-    <div class="sai-guia-menu-secundario-titulo">
-        Notícias
-    </div>
-    <div class="sai-guia-menu-secundario-noticia">este é um exemplo de noticia</div>
-    <div class="sai-guia-menu-secundario-noticia">este é um exemplo de noticia</div>
-    <div class="sai-guia-menu-secundario-noticia">este é um exemplo de noticia</div>
+<div class="sai-guia-texto-2">
+    texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto 
+    texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto 
+</div>
+<div class="sai-guia-menu-icones">
+    <img src="imagens/campus_icon1.png" alt=""/>
+    <img src="imagens/campus_icon2.png" alt=""/>
+    <img src="imagens/campus_icon3.png" alt=""/>
+    <img src="imagens/campus_icon4.png" alt=""/>
+    <img src="imagens/campus_icon5.png" alt=""/>
+    <img src="imagens/campus_icon6.png" alt=""/>
 </div>
 <div class="sai-guia-galeria">
     <img src="imagens/galeria_1.png" alt=""/>
