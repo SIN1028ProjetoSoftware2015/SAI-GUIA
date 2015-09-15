@@ -30,7 +30,7 @@ include_once 'ui/header.ui.php';
 </div>
 <div class="sai-guia-menu-secundario">
     <ul>
-        <li class="sai-guia-menu-secundario-cor-azul">Extágio no exterior<div class="sai-guia-menu-secundario-triangulo-azul"></div></li>
+        <li class="sai-guia-menu-secundario-cor-azul">Estágio no exterior<div class="sai-guia-menu-secundario-triangulo-azul"></div></li>
         <li class="sai-guia-menu-secundario-cor-azul">Programas públicos<div class="sai-guia-menu-secundario-triangulo-azul"></div></li>
         <li class="sai-guia-menu-secundario-cor-azul2">Convênios<div class="sai-guia-menu-secundario-triangulo-azul2"></div></li>
         <li class="sai-guia-menu-secundario-cor-azul2">Financiadoras<div class="sai-guia-menu-secundario-triangulo-azul2"></div></li>

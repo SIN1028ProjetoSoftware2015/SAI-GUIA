@@ -84,6 +84,7 @@ body{
     margin-right: 1%;
     float: left;
     display: table;
+    cursor: pointer;
 }
 .sai-guia-menu-campus div img{
     width: 100%;
@@ -233,4 +234,47 @@ body{
     background: #254559;
     width: 100%;
     height: 50px;
+}
+.sai-guia-titulo{
+    width: 100%;
+    text-align: center;
+    font-size: 2.4em;
+    color: #254559;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.sai-guia-texto{
+    width: 90%;
+    margin: 3% 5%;
+    font-size: 1em;
+    line-height: 1.4em;
+}
+.sai-guia-titulo-2{
+    width: 100%;
+    text-align: center;
+    font-size: 1.4em;
+    color: #254559;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.sai-guia-texto-2{
+    width: 90%;
+    margin: 3% 5%;
+    font-size: 1em;
+    line-height: 1.4em;
+}
+.sai-guia-menu-icones{
+    width: 100%;
+    display: table;
+}
+.sai-guia-menu-icones img{
+    margin: 4% 0.5%;
+    width: 15.3%;
+    cursor: pointer;
+}
+@media(max-width: 768px){
+    .sai-guia-menu-icones img{
+        margin: 5% 2%;
+        width: 45%;
+    }
 }
