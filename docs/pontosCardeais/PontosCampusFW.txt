@@ -30,6 +30,7 @@ UFSM Campus Palmeira das Missões
 Av. Independência, 3751 - Vista Alegre, Palmeira das Missões - RS, 98300-000
  -27.921435, -53.318371
 
- R. Francisco Guerino, 374-452
+
+R. Maximiliano Catani, 422
 Silveira Martins - RS, 97195-000
--29.644015, -53.584741
+-29.642801, -53.585086
