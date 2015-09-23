@@ -30,9 +30,9 @@
 		var info = new google.maps.InfoWindow({maxWidth: 500});
 		
 		var marker = new google.maps.Marker({
-			title: 'frederico',
-			icon: 'marker.png',
-			position: new google.maps.LatLng('-27.395203', '-53.428446')
+			title: 'Cachoeira do Sul',
+                            icon: 'marker.png',
+			position: new google.maps.LatLng('-30.042777, -52.899782')
 		});
 		
 		function initialize() {
@@ -47,7 +47,7 @@
 			marker.setMap(map);
 			
 			google.maps.event.addListener(marker, 'click', function() {
-				info.setContent('UFSM Campus Frederico Westphalen,Linha 7 de Setembro, S/N - Interior Frederico Westphalen - RS, 98400-000');
+				info.setContent('R. Pres. Vargas, 1958 - Bom Retiro, Cachoeira do Sul- RS, 96506-302');
 				info.open(map, marker);
 			}); 
 		}
@@ -79,10 +79,9 @@
         <body class="container"onload="initialize()">
     <form class="form-inline" action="" method="post" id="form_route">
             <label>Origem:<select type="text" id="route_from"  class="form-control">
-                                 <option></option>
-                                <option>UFSM Santa Maria</option>
+                                <option>UFSM Campus Santa Maria</option>
                                  <option>UFSM Campus Palmeira das Missões</option>
-                                <option>UFSM Campus Cachoeira do Sul</option>
+                                <option>UFSM Campus Frederico Westphalen</option>
                                 <option>Aeroporto Internacional de Porto Alegre - Salgado Filho</option>
                                 <option>Aeroporto Municipal de Chapecó - Serafim Enzo Bertazzo</option>
                                 <option>Aeroporto de Passo Fundo</option>
