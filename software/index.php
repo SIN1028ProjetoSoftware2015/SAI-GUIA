@@ -48,12 +48,6 @@ include_once 'ui/header.ui.php';
     <div class="sai-guia-menu-secundario-noticia">este é um exemplo de noticia</div>
     <div class="sai-guia-menu-secundario-noticia">este é um exemplo de noticia</div>
 </div>
-<div class="sai-guia-galeria">
-    <img src="imagens/galeria_1.png" alt=""/>
-    <img src="imagens/galeria_2.png" alt=""/>
-    <img src="imagens/galeria_3.png" alt=""/>
-    <img src="imagens/galeria_4.png" alt=""/>
-</div>
 <?php
 include_once 'ui/footer.ui.php';
 ?>

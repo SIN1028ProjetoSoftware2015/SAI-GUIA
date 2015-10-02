@@ -75,7 +75,7 @@
                             </ul>
                         </li>
                         <li><a href="#">Notícias</a></li>
-                        <li><a href="#">Contato</a></li>
+                        <li><a href="contato.php">Contato</a></li>
                     </ul>
                 </div>
             </div>
